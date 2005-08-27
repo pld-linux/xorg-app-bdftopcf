@@ -1,5 +1,3 @@
-# $Rev: 3336 $, $Date: 2005-08-27 17:42:47 $
-#
 Summary:	bdftopcf application
 Summary(pl):	Aplikacja bdftopcf
 Name:		xorg-app-bdftopcf
@@ -15,10 +13,7 @@ BuildRequires:	automake
 BuildRequires:	xorg-lib-libXfont-devel
 BuildRequires:	xorg-util-util-macros
 BuildRequires:	pkgconfig >= 0.19
-BuildRoot:	%{tmpdir}/bdftopcf-%{version}-root-%(id -u -n)
-
-%define		_prefix		/usr/X11R6
-%define		_mandir		%{_prefix}/man
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 bdftopcf application.
@@ -26,10 +21,8 @@ bdftopcf application.
 %description -l pl
 Aplikacja bdftopcf.
 
-
 %prep
 %setup -q -n bdftopcf-%{version}
-
 
 %build
 %{__aclocal}
@@ -40,17 +33,14 @@ Aplikacja bdftopcf.
 
 %{__make}
 
-
 %install
 rm -rf $RPM_BUILD_ROOT
 
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
-
 %clean
 rm -rf $RPM_BUILD_ROOT
-
 
 %files
 %defattr(644,root,root,755)
