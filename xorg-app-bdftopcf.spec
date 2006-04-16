@@ -2,7 +2,7 @@ Summary:	bdftopcf application
 Summary(pl):	Aplikacja bdftopcf
 Name:		xorg-app-bdftopcf
 Version:	1.0.0
-Release:	0.1
+Release:	1
 License:	MIT
 Group:		X11/Applications
 Source0:	http://xorg.freedesktop.org/releases/X11R7.0/src/app/bdftopcf-%{version}.tar.bz2
@@ -46,4 +46,4 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc AUTHORS COPYING ChangeLog README
 %attr(755,root,root) %{_bindir}/bdftopcf
-%{_mandir}/man1/*.1x*
+%{_mandir}/man1/bdftopcf.1x*
