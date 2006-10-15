@@ -5,7 +5,7 @@ Version:	1.0.0
 Release:	1
 License:	MIT
 Group:		X11/Applications
-Source0:	http://xorg.freedesktop.org/releases/X11R7.0/src/app/bdftopcf-%{version}.tar.bz2
+Source0:	http://xorg.freedesktop.org/releases/individual/app/bdftopcf-%{version}.tar.bz2
 # Source0-md5:	41f4ac6760ef5e671ba8d4baa7236f12
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
