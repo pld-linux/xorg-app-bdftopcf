@@ -1,5 +1,5 @@
 Summary:	bdftopcf application
-Summary(pl):	Aplikacja bdftopcf
+Summary(pl.UTF-8):   Aplikacja bdftopcf
 Name:		xorg-app-bdftopcf
 Version:	1.0.0
 Release:	1
@@ -18,7 +18,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 bdftopcf application.
 
-%description -l pl
+%description -l pl.UTF-8
 Aplikacja bdftopcf.
 
 %prep
