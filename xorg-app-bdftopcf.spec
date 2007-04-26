@@ -1,12 +1,12 @@
 Summary:	bdftopcf application
 Summary(pl.UTF-8):	Aplikacja bdftopcf
 Name:		xorg-app-bdftopcf
-Version:	1.0.0
+Version:	1.0.1
 Release:	1
 License:	MIT
 Group:		X11/Applications
 Source0:	http://xorg.freedesktop.org/releases/individual/app/bdftopcf-%{version}.tar.bz2
-# Source0-md5:	41f4ac6760ef5e671ba8d4baa7236f12
+# Source0-md5:	9685fab33d39954ab8a0d22e0969d5a4
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
