@@ -1,5 +1,5 @@
-Summary:	bdftopcf application
-Summary(pl.UTF-8):	Aplikacja bdftopcf
+Summary:	bdftopcf application - convert X font from BDF to PCF
+Summary(pl.UTF-8):	Aplikacja bdftopcf - konwersja fontów X z BDF do PCF
 Name:		xorg-app-bdftopcf
 Version:	1.0.1
 Release:	1
@@ -16,10 +16,20 @@ BuildRequires:	xorg-util-util-macros >= 0.99.2
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-bdftopcf application.
+bdftopcf is a font compiler for the X server and font server. Fonts in
+Portable Compiled Format can be read by any architecture, although the
+file is structured to allow one particular architecture to read them
+directly without reformatting. This allows fast reading on the
+appropriate machine, but the files are still portable (but read more
+slowly) on other machines.
 
 %description -l pl.UTF-8
-Aplikacja bdftopcf.
+bdftopcf to kompilator fontów dla serwera X i serwera fontów. Fonty w
+formacie PCF (Portable Compiled Format) mogą być odczytywane na
+dowolnej architekturze, jednak plik jest tak skonstruowany, że na
+określonej architekturze może być czytany bez żadnych przekształceń.
+Pozwala to na szybki odczyt na odpowiedniej maszynie, ale pliki są
+nadal przenośne na inne maszyny (choć czytane wolniej).
 
 %prep
 %setup -q -n bdftopcf-%{version}
