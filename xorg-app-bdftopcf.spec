@@ -1,12 +1,12 @@
 Summary:	bdftopcf application - convert X font from BDF to PCF
 Summary(pl.UTF-8):	Aplikacja bdftopcf - konwersja fontów X z BDF do PCF
 Name:		xorg-app-bdftopcf
-Version:	1.0.1
+Version:	1.0.2
 Release:	1
 License:	MIT
 Group:		X11/Applications
 Source0:	http://xorg.freedesktop.org/releases/individual/app/bdftopcf-%{version}.tar.bz2
-# Source0-md5:	9685fab33d39954ab8a0d22e0969d5a4
+# Source0-md5:	148f20d28caaa69bbe7dcca7c2674fb6
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
